@@ -1,0 +1,85 @@
+* {
+  padding: o;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background: #61ce6f;
+  color: #312530;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 10%;
+  background: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100%;
+}
+
+.logo {
+  font-size: 25px;
+  color: #893281;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.home {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20%;
+}
+
+.content {
+  max-width: 600px;
+}
+
+.content h1 {
+  font-size: 50px;
+  font-weight: 700;
+  align-items: center;
+  text-align: center;
+}
+
+.content p {
+  font-size: 16px;
+  text-align: center;
+  color: #ffffff;
+  margin: 20px 0 40px;
+}
+
+.content .btn-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 345px;
+  height: 50px;
+}
+
+.content .btn-box a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 100%;
+  background: #c591c0;
+  border: 2px solid rgb(85, 71, 71);
+  border-radius: 8px;
+  font-size: 19px;
+  color: #312530;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.btn-box a:nth-child(2) {
+  background: transparent;
+}
